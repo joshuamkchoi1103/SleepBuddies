@@ -17,6 +17,35 @@ to maintain a consistent sleep routine. By addressing these challenges, this app
 stress college students face because of lack of sleep / poor 
 sleep.
 
+# 🌙 SleepBuddies
+
+**SleepBuddies** is a wellness-focused web application built with React and TypeScript. It empowers users to track sleep patterns, set smart alarms, and access soothing audio features like white noise and guided meditations. Designed for intuitive, engaging, and data-driven support of better sleep habits.
+
+---
+
+## 📌 Features
+
+- 🛏️ **Sleep Tracking**: Log daily sleep and wake times, visualize trends over time.
+- ⏰ **Alarms & Reminders**: Set multiple alarms and customizable reminders.
+- 🎧 **White Noise / Meditation Audio**: Stream built-in relaxation tracks to support better sleep routines.
+- 📊 **Weekly Analytics**: View average sleep duration and trends through intuitive visual reports.
+- 🔧 **User Preferences**: Customize settings such as audio volume, alarm tones, and sleep reminders.
+- 🔄 **Persistent Data Storage**: Client-side data persistence (and server integration planned).
+
+---
+
+## 🧰 Tech Stack
+
+- **Front‑end**: React, TypeScript, JSX/TSX components  
+- **Audio**: HTML5 Audio API for playing white noise and meditation tracks  
+- **Data & State**: `localStorage` (with potential server-side sync)  
+- **Dev Tools**: npm, Git, GitHub Actions for CI, ESLint/Prettier for code quality  
+- **Testing**: Unit tests with Jest and GitHub Actions
+
+---
+
+
+
 ## Requirements
 
 This project uses React in Typescript, and requires `Node.js` and `npm`
